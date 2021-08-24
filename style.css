@@ -1,3 +1,52 @@
 body {
-    background: blue;
+    background: white;
+}
+.typing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+p {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+.navigation {
+    float: right;
+    font-family: "Gill Sans", sans-serif;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation li {
+    display: inline-block;
+    margin: 0 200px;
+}
+.navigation a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.joy {
+    float: left;
+    width: 300px;
+}
+.ent1 {
+    text-align: right;
+}
+
+.anger {
+    float: right;
+}
+.ent2 {
+    text-align: left;
 }
